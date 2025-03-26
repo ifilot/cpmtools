@@ -1879,12 +1879,12 @@ end
 # P2000C P2012 disk format
 # 5.25" disk DS/DD
 diskdef p2000c
-  seclen 128
+  seclen 256
   tracks 80
-  sectrk 16
+  sectrk 8
   blocksize 4096
   maxdir 128
-  skew 0
+  skew 2
   boottrk 4
   os 2.2
 end
