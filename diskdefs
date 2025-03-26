@@ -1875,3 +1875,16 @@ diskdef mds-sd
   boottrk 2
   os 2.2
 end
+
+# P2000C P2012 disk format
+# 5.25" disk DS/DD
+diskdef p2000c
+  seclen 128
+  tracks 80
+  sectrk 16
+  blocksize 4096
+  maxdir 128
+  skew 0
+  boottrk 4
+  os 2.2
+end
